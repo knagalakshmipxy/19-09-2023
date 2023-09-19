@@ -1,0 +1,59 @@
+<html>
+    <head>
+    <title>Rental Homes</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="main.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: gray;">
+    <div id="parent">
+        <div id="container">
+         <label><b>Tools</b></label><br>
+         <h4> </h4>
+         <label for="check1" id=""> <img src="brush.png" alt="brush" id="brush" class="brush1" > <input type="radio" name ='b1' id = 'check1' onchange="function1()">
+         </input></label><br>
+
+         <label for="check2" id=""> <img src="pen.png" alt="pen" id="pen" class="pen1" > <input type="radio" name ='b1' id = 'check2' onchange="function2()">
+         </input></label><br>
+
+         <label for="check3" id=""> <img src="eraser.png" alt="eraser" id="eraser" class="eraser1" > <input type="radio" name ='b1' id = 'check3' onchange="function3()">
+         </input></label><br>
+
+         <label for="check4" id=""> <img src="fill%20color.png"alt="fillcolor" id="fillcolor" class="fillcolor1" > <input type="radio" name ='b1' id = 'check4' onchange="function4()">
+         </input></label><br>
+
+            <input type="range" id="range1" onchange="function5()"></label>
+           </label>
+           <label> Colors</label>
+           <div class="row colors">
+            <ul class="options">
+                <li class="option"></li>
+                <li class="option selected" ></li>
+                <li class="option"></li>
+                <li class="option"></li>
+                <li class="option"></li>
+                <input type="color" id="colorpicker" value="#fff23">
+            </ul> 
+           
+            
+        </div>
+        <br><center>
+        <button id="clear-button" > Clear Canvas</button>
+
+    </center>
+        </div>
+        
+        <div>
+            <canvas id="canvas" class= "brush-container"> </canvas>
+        </div>
+
+    </div>
+</body>
+</html>
+
+
+
+
+

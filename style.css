@@ -1,0 +1,127 @@
+#myCanvas
+{
+  border-width: 10px;
+  background-color: white;
+  border-style: ridge;
+  border-color: darkkhaki;
+  align-items: center;
+  float: left;
+}
+#container{
+  float: left;
+  background-color:bisque;
+  width: 220px;
+  height: 600px;
+  border: solid black;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+#canvas
+{
+  float: left;
+  background-color:whitesmoke;
+  width: 900px;
+  height: 600px;
+  border: skyblue;
+  margin-left: 55px;
+  margin-top: 20px;
+}
+body{
+  background-color: gray;
+}
+#brush{
+  width: 40px;
+  height: 35px;
+}
+#pen{
+  width: 40px;
+  height: 35px;
+}
+#eraser{
+  width: 40px;
+  height: 35px;
+}
+#fillcolor{
+    width:40px;
+    height:35px;
+}
+label{
+  margin: 10px;
+}
+.colors .option{
+  height: 15px;
+  width: 15px;
+  background-color: yellow;
+  border-radius: 30%;
+}
+.colors .option:nth-child(1){
+background-color:black;
+border: 1px wheat;
+}
+.colors .option:nth-child(2){
+  background-color: red;
+  border: 1px wheat;
+  }
+  .colors .option:nth-child(3){
+    background-color: green;
+    }
+    .colors .option:nth-child(4){
+      background-color: orange;
+      }
+      .colors .option:nth-child(5){
+        background-color: violet;
+        }
+
+.colors .options{
+  display: flex;
+  justify-content:space-evenly;
+  list-style-type: none;
+  margin-top: 3px;
+}
+.colors .option:hover:before{
+  position: absolute;
+  content: " ";
+  height: 12px;
+  width: 12px;
+  background: inherit;
+  border-radius: yellow;
+  border: 2px solid white;
+  transform: translate();
+
+}
+#colorpicker{
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+}
+#clear-button{
+  margin: 15px;
+  padding: 10px;
+  background: black;
+     border-radius:70%;
+      color: white;
+
+}
+#clear-button:hover{
+  background-color:blue;
+  width: 120px;
+  height: 40px;
+}
+input{
+}
+input[type="radio"]:checked +label{
+  background-color: aliceblue;
+}
+.brush-container {
+  cursor: pointer; /* This sets the cursor style to pointer when hovering over the element */
+  padding: 20px;
+  background-color: #3498db;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.brush-container:hover {
+  cursor: url('brush.png'), auto; 
+}
+
